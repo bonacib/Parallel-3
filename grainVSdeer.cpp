@@ -29,13 +29,13 @@ volatile int	NumGone;
 int	NowYear = 2022;		// 2022 - 2027
 int	NowMonth = 0;		// 0 - 11
 
-float	NowPrecip;		// inches of rain per month
-float	NowTemp;		// temperature this month
-float	NowHeight = 20;		// grain height in inches
-int	NowNumDeer = 2;		// number of deer in the current population
+float	NowPrecip = 7;		// inches of rain per month
+float	NowTemp = 40;		// temperature this month
+float	NowHeight = 2;		// grain height in inches
+int	NowNumDeer = 1;		// number of deer in the current population
 
 // Parameters
-const float GRAIN_GROWS_PER_MONTH =		9.0;
+const float GRAIN_GROWS_PER_MONTH =		2.0;
 const float ONE_DEER_EATS_PER_MONTH =		1.0;
 
 const float AVG_PRECIP_PER_MONTH =		7.0;	// average
@@ -121,7 +121,12 @@ Watcher(){
 		// do nothing
 		WaitBarrier();  // 2 
 
-		// the now state of the data
+		WaitBarrier();  // 3 
+
+		// 4
+		WaitBarrier( );
+		
+			// the now state of the data
 		fprintf(stdout, "%2d Year; %2d Month ; Temp = %6.2f ; Precip = %6.2lf; Height of grain = %6.2lf; Deer = %2d\n", 
 			NowYear, NowMonth, NowTemp, NowPrecip, NowHeight, NowNumDeer);
 			
@@ -145,9 +150,8 @@ Watcher(){
 		if( NowPrecip < 0. )
 			NowPrecip = 0.;
 
-
-
-		WaitBarrier();  // 3 
+		// 5
+		WaitBarrier( );
     }
 }
 
@@ -174,17 +178,23 @@ Deer(){
 			
 			//printf ("%s; %2d \n", "next deer", nextNumDeer);
 
-			// DoneComputing barrier:
+			// 1
 			WaitBarrier( );
 			NowNumDeer = nextNumDeer;
 			//printf ("%s; %2d \n", "updated deer", NowNumDeer);
 
-			// DoneAssigning barrier:
-			// Do nothing
+			// 2
+
 			WaitBarrier( );
 			
-			// DonePrinting barrier:
-			// Do nothing
+			// 3
+			WaitBarrier( );
+
+			// 4
+			WaitBarrier( );
+			
+
+			// 5
 			WaitBarrier( );
 	}
 }
@@ -215,59 +225,64 @@ Grain(){
 				nextHeight = 0;
 			}
 
-			//fprintf(stderr, "new grain height = %6.2f; \n", nextHeight);
+			fprintf(stderr, "new grain height = %6.2f; \n", nextHeight);
 
-			// DoneComputing barrier:
+			// 1
 			WaitBarrier( );
-			
 			NowHeight = nextHeight;
 
-			// DoneAssigning barrier:
+			// 2
 			WaitBarrier( );
 			
 
-			// DonePrinting barrier:
+			// 3
+			WaitBarrier( );
+
+			// 4
+			WaitBarrier( );
+			
+
+			// 5
 			WaitBarrier( );
 			
 	}
 }
 
-// void
-// SwarmofBeesPollinate(){
-// 	while(NowYear < 2028){
-// 			// compute a temporary next-value for this quantity
-// 			// based on the current state of the simulation:
-// 			float nextSwarmofBees = NowSwarmofBees;
-// 			if (tempFactor > 60){
-// 				if precipFactor < 1{
-// 					nextSwarmofBees = 1
-// 				}
-// 			}
-// 			else{
-// 				nextSwarmofBees = 0
-// 			}
-// 			nextHeight -= (float)NowNumDeer * ONE_DEER_EATS_PER_MONTH;
-			
-// 			// Be sure to clamp nextHeight against zero, that is:
-// 			if( nextHeight < 0. ){ 
-// 				nextHeight = 0;
-// 			}
+void
+cropRotation(){
+	while(NowYear < 2028){
 
-// 			//fprintf(stderr, "new grain height = %6.2f; \n", nextHeight);
+			// 1
+			WaitBarrier( );
 
-// 			// DoneComputing barrier:
-// 			WaitBarrier( );
-// 			float NowHeight = nextHeight;
-
-// 			// DoneAssigning barrier:
-// 			WaitBarrier( );
+			// 2
+			WaitBarrier( );
 			
 
-// 			// DonePrinting barrier:
-// 			WaitBarrier( );
+			// 3
+			WaitBarrier( );
+
+			// compute a temporary next-value for this quantity
+			// based on the current state of the simulation:
+			float nextHeight = NowHeight;
+			if (NowYear % 2 == 0){
+				if (NowMonth == 8){
+					nextHeight = NowHeight * 2;
+				}
+			}
+
+			fprintf(stderr, "new grain height crop rotation = %6.2f; \n", nextHeight);
+
+			// 4
+			WaitBarrier( );
+			NowHeight = nextHeight;
 			
-// 	}
-// }
+
+			// 5
+			WaitBarrier( );
+			
+	}
+}
 
 int
 main(int argc, char*argv[])
@@ -276,8 +291,8 @@ main(int argc, char*argv[])
 	void	InitBarrier( int );
 	void	WaitBarrier( );
 	// Parallel 
-	omp_set_num_threads( 3 );	// same as # of sections
-	InitBarrier(3);
+	omp_set_num_threads( 4 );	// same as # of sections
+	InitBarrier(4);
 	
 	#pragma omp parallel sections
 	{
@@ -296,10 +311,10 @@ main(int argc, char*argv[])
 			Watcher( );
 		}
 
-		// #pragma omp section
-		// {
-		// 	SwarmofBeesPollinate( );	
-		// }
+		#pragma omp section
+		{
+			cropRotation( );	
+		}
 	}       // implied barrier -- all functions must return in order
 		// to allow any of them to get past here
 
