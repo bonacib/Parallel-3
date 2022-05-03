@@ -1,234 +1,78 @@
-next deer;  3 
-updated deer;  3 
-2022 Year;  0 Month ; Temp =   0.00 ; Precip =   0.00; Height =  20.00; Deer =  2
-next deer;  3 
-updated deer;  3 
-2022 Year;  1 Month ; Temp =  51.85 ; Precip =  12.58; Height =  20.00; Deer =  2
-next deer;  3 
-updated deer;  3 
-2022 Year;  2 Month ; Temp =  46.96 ; Precip =  13.85; Height =  20.00; Deer =  2
-next deer;  3 
-updated deer;  3 
-2022 Year;  3 Month ; Temp =  67.87 ; Precip =  12.51; Height =  20.00; Deer =  2
-next deer;  3 
-updated deer;  3 
-2022 Year;  4 Month ; Temp =  84.14 ; Precip =  11.93; Height =  20.00; Deer =  2
-next deer;  3 
-updated deer;  3 
-2022 Year;  5 Month ; Temp =  76.00 ; Precip =   7.56; Height =  20.00; Deer =  2
-next deer;  3 
-updated deer;  3 
-2022 Year;  6 Month ; Temp =  80.50 ; Precip =   4.42; Height =  20.00; Deer =  2
-next deer;  3 
-updated deer;  3 
-2022 Year;  7 Month ; Temp =  70.85 ; Precip =   2.93; Height =  20.00; Deer =  2
-next deer;  3 
-updated deer;  3 
-2022 Year;  8 Month ; Temp =  60.73 ; Precip =   2.35; Height =  20.00; Deer =  2
-next deer;  3 
-updated deer;  3 
-2022 Year;  9 Month ; Temp =  51.82 ; Precip =   0.24; Height =  20.00; Deer =  2
-next deer;  3 
-updated deer;  3 
-2022 Year; 10 Month ; Temp =  55.14 ; Precip =   4.19; Height =  20.00; Deer =  2
-next deer;  3 
-updated deer;  3 
-2022 Year; 11 Month ; Temp =  33.71 ; Precip =   6.74; Height =  20.00; Deer =  2
-next deer;  3 
-updated deer;  3 
-2022 Year; 12 Month ; Temp =  35.78 ; Precip =  10.40; Height =  20.00; Deer =  2
-next deer;  3 
-updated deer;  3 
-2023 Year;  0 Month ; Temp =  49.65 ; Precip =   8.01; Height =  20.00; Deer =  2
-next deer;  3 
-updated deer;  3 
-2023 Year;  1 Month ; Temp =  55.43 ; Precip =  12.96; Height =  20.00; Deer =  2
-next deer;  3 
-updated deer;  3 
-2023 Year;  2 Month ; Temp =  62.02 ; Precip =  14.45; Height =  20.00; Deer =  2
-next deer;  3 
-updated deer;  3 
-2023 Year;  3 Month ; Temp =  72.44 ; Precip =  12.98; Height =  20.00; Deer =  2
-next deer;  3 
-updated deer;  3 
-2023 Year;  4 Month ; Temp =  83.61 ; Precip =   9.48; Height =  20.00; Deer =  2
-next deer;  3 
-updated deer;  3 
-2023 Year;  5 Month ; Temp =  70.89 ; Precip =  10.13; Height =  20.00; Deer =  2
-next deer;  3 
-updated deer;  3 
-2023 Year;  6 Month ; Temp =  79.50 ; Precip =   5.84; Height =  20.00; Deer =  2
-next deer;  3 
-updated deer;  3 
-2023 Year;  7 Month ; Temp =  66.86 ; Precip =   4.37; Height =  20.00; Deer =  2
-next deer;  3 
-updated deer;  3 
-2023 Year;  8 Month ; Temp =  66.57 ; Precip =   1.72; Height =  20.00; Deer =  2
-next deer;  3 
-updated deer;  3 
-2023 Year;  9 Month ; Temp =  57.20 ; Precip =   1.72; Height =  20.00; Deer =  2
-next deer;  3 
-updated deer;  3 
-2023 Year; 10 Month ; Temp =  55.52 ; Precip =   3.24; Height =  20.00; Deer =  2
-next deer;  3 
-updated deer;  3 
-2023 Year; 11 Month ; Temp =  36.04 ; Precip =   6.44; Height =  20.00; Deer =  2
-next deer;  3 
-updated deer;  3 
-2023 Year; 12 Month ; Temp =  45.64 ; Precip =  10.42; Height =  20.00; Deer =  2
-next deer;  3 
-updated deer;  3 
-2024 Year;  0 Month ; Temp =  48.68 ; Precip =   9.61; Height =  20.00; Deer =  2
-next deer;  3 
-updated deer;  3 
-2024 Year;  1 Month ; Temp =  47.08 ; Precip =  11.16; Height =  20.00; Deer =  2
-next deer;  3 
-updated deer;  3 
-2024 Year;  2 Month ; Temp =  58.40 ; Precip =  12.58; Height =  20.00; Deer =  2
-next deer;  3 
-updated deer;  3 
-2024 Year;  3 Month ; Temp =  74.11 ; Precip =  12.33; Height =  20.00; Deer =  2
-next deer;  3 
-updated deer;  3 
-2024 Year;  4 Month ; Temp =  68.66 ; Precip =  13.16; Height =  20.00; Deer =  2
-next deer;  3 
-updated deer;  3 
-2024 Year;  5 Month ; Temp =  78.93 ; Precip =   7.56; Height =  20.00; Deer =  2
-next deer;  3 
-updated deer;  3 
-2024 Year;  6 Month ; Temp =  70.82 ; Precip =   4.76; Height =  20.00; Deer =  2
-next deer;  3 
-updated deer;  3 
-2024 Year;  7 Month ; Temp =  76.06 ; Precip =   2.46; Height =  20.00; Deer =  2
-next deer;  3 
-updated deer;  3 
-2024 Year;  8 Month ; Temp =  74.60 ; Precip =   0.54; Height =  20.00; Deer =  2
-next deer;  3 
-updated deer;  3 
-2024 Year;  9 Month ; Temp =  54.84 ; Precip =   0.82; Height =  20.00; Deer =  2
-next deer;  3 
-updated deer;  3 
-2024 Year; 10 Month ; Temp =  46.11 ; Precip =   0.80; Height =  20.00; Deer =  2
-next deer;  3 
-updated deer;  3 
-2024 Year; 11 Month ; Temp =  44.21 ; Precip =   6.19; Height =  20.00; Deer =  2
-next deer;  3 
-updated deer;  3 
-2024 Year; 12 Month ; Temp =  43.48 ; Precip =   8.85; Height =  20.00; Deer =  2
-next deer;  3 
-updated deer;  3 
-2025 Year;  0 Month ; Temp =  40.05 ; Precip =   8.97; Height =  20.00; Deer =  2
-next deer;  3 
-updated deer;  3 
-2025 Year;  1 Month ; Temp =  45.07 ; Precip =  12.02; Height =  20.00; Deer =  2
-next deer;  3 
-updated deer;  3 
-2025 Year;  2 Month ; Temp =  50.50 ; Precip =  13.23; Height =  20.00; Deer =  2
-next deer;  3 
-updated deer;  3 
-2025 Year;  3 Month ; Temp =  73.78 ; Precip =  12.56; Height =  20.00; Deer =  2
-next deer;  3 
-updated deer;  3 
-2025 Year;  4 Month ; Temp =  81.56 ; Precip =  11.37; Height =  20.00; Deer =  2
-next deer;  3 
-updated deer;  3 
-2025 Year;  5 Month ; Temp =  86.55 ; Precip =   8.50; Height =  20.00; Deer =  2
-next deer;  3 
-updated deer;  3 
-2025 Year;  6 Month ; Temp =  73.20 ; Precip =   4.69; Height =  20.00; Deer =  2
-next deer;  3 
-updated deer;  3 
-2025 Year;  7 Month ; Temp =  80.03 ; Precip =   4.71; Height =  20.00; Deer =  2
-next deer;  3 
-updated deer;  3 
-2025 Year;  8 Month ; Temp =  63.34 ; Precip =   1.98; Height =  20.00; Deer =  2
-next deer;  3 
-updated deer;  3 
-2025 Year;  9 Month ; Temp =  48.73 ; Precip =   2.07; Height =  20.00; Deer =  2
-next deer;  3 
-updated deer;  3 
-2025 Year; 10 Month ; Temp =  44.29 ; Precip =   2.34; Height =  20.00; Deer =  2
-next deer;  3 
-updated deer;  3 
-2025 Year; 11 Month ; Temp =  40.82 ; Precip =   7.00; Height =  20.00; Deer =  2
-next deer;  3 
-updated deer;  3 
-2025 Year; 12 Month ; Temp =  41.72 ; Precip =   7.50; Height =  20.00; Deer =  2
-next deer;  3 
-updated deer;  3 
-2026 Year;  0 Month ; Temp =  41.51 ; Precip =   7.48; Height =  20.00; Deer =  2
-next deer;  3 
-updated deer;  3 
-2026 Year;  1 Month ; Temp =  51.52 ; Precip =  12.26; Height =  20.00; Deer =  2
-next deer;  3 
-updated deer;  3 
-2026 Year;  2 Month ; Temp =  59.20 ; Precip =  13.81; Height =  20.00; Deer =  2
-next deer;  3 
-updated deer;  3 
-2026 Year;  3 Month ; Temp =  57.30 ; Precip =  13.83; Height =  20.00; Deer =  2
-next deer;  3 
-updated deer;  3 
-2026 Year;  4 Month ; Temp =  77.00 ; Precip =  12.19; Height =  20.00; Deer =  2
-next deer;  3 
-updated deer;  3 
-2026 Year;  5 Month ; Temp =  78.56 ; Precip =   8.12; Height =  20.00; Deer =  2
-next deer;  3 
-updated deer;  3 
-2026 Year;  6 Month ; Temp =  79.86 ; Precip =   5.23; Height =  20.00; Deer =  2
-next deer;  3 
-updated deer;  3 
-2026 Year;  7 Month ; Temp =  79.59 ; Precip =   1.24; Height =  20.00; Deer =  2
-next deer;  3 
-updated deer;  3 
-2026 Year;  8 Month ; Temp =  74.45 ; Precip =   0.00; Height =  20.00; Deer =  2
-next deer;  3 
-updated deer;  3 
-2026 Year;  9 Month ; Temp =  56.20 ; Precip =   0.12; Height =  20.00; Deer =  2
-next deer;  3 
-updated deer;  3 
-2026 Year; 10 Month ; Temp =  46.53 ; Precip =   2.28; Height =  20.00; Deer =  2
-next deer;  3 
-updated deer;  3 
-2026 Year; 11 Month ; Temp =  44.89 ; Precip =   4.47; Height =  20.00; Deer =  2
-next deer;  3 
-updated deer;  3 
-2026 Year; 12 Month ; Temp =  45.88 ; Precip =   8.82; Height =  20.00; Deer =  2
-next deer;  3 
-updated deer;  3 
-2027 Year;  0 Month ; Temp =  44.74 ; Precip =  10.23; Height =  20.00; Deer =  2
-next deer;  3 
-updated deer;  3 
-2027 Year;  1 Month ; Temp =  54.04 ; Precip =  12.66; Height =  20.00; Deer =  2
-next deer;  3 
-updated deer;  3 
-2027 Year;  2 Month ; Temp =  46.88 ; Precip =  14.77; Height =  20.00; Deer =  2
-next deer;  3 
-updated deer;  3 
-2027 Year;  3 Month ; Temp =  57.83 ; Precip =  12.02; Height =  20.00; Deer =  2
-next deer;  3 
-updated deer;  3 
-2027 Year;  4 Month ; Temp =  74.54 ; Precip =  11.90; Height =  20.00; Deer =  2
-next deer;  3 
-updated deer;  3 
-2027 Year;  5 Month ; Temp =  78.41 ; Precip =   7.93; Height =  20.00; Deer =  2
-next deer;  3 
-updated deer;  3 
-2027 Year;  6 Month ; Temp =  83.61 ; Precip =   6.88; Height =  20.00; Deer =  2
-next deer;  3 
-updated deer;  3 
-2027 Year;  7 Month ; Temp =  66.11 ; Precip =   2.70; Height =  20.00; Deer =  2
-next deer;  3 
-updated deer;  3 
-2027 Year;  8 Month ; Temp =  60.91 ; Precip =   0.00; Height =  20.00; Deer =  2
-next deer;  3 
-updated deer;  3 
-2027 Year;  9 Month ; Temp =  58.11 ; Precip =   2.50; Height =  20.00; Deer =  2
-next deer;  3 
-updated deer;  3 
-2027 Year; 10 Month ; Temp =  45.01 ; Precip =   4.32; Height =  20.00; Deer =  2
-next deer;  3 
-updated deer;  3 
-2027 Year; 11 Month ; Temp =  43.60 ; Precip =   6.23; Height =  20.00; Deer =  2
-next deer;  3 
-updated deer;  3 
-2027 Year; 12 Month ; Temp =  39.67 ; Precip =   9.42; Height =  20.00; Deer =  2
+2022 Year;  0 Month ; Temp =   0.00 ; Precip =   0.00; Height of grain =  18.00; Deer =  3
+2022 Year;  1 Month ; Temp =  51.85 ; Precip =  12.58; Height of grain =  15.00; Deer =  4
+2022 Year;  2 Month ; Temp =  46.96 ; Precip =  13.85; Height of grain =  11.00; Deer =  5
+2022 Year;  3 Month ; Temp =  67.87 ; Precip =  12.51; Height of grain =   6.00; Deer =  6
+2022 Year;  4 Month ; Temp =  84.14 ; Precip =  11.93; Height of grain =   0.00; Deer =  7
+2022 Year;  5 Month ; Temp =  76.00 ; Precip =   7.56; Height of grain =   0.00; Deer =  6
+2022 Year;  6 Month ; Temp =  80.50 ; Precip =   4.42; Height of grain =   0.00; Deer =  5
+2022 Year;  7 Month ; Temp =  70.85 ; Precip =   2.93; Height of grain =   0.00; Deer =  4
+2022 Year;  8 Month ; Temp =  60.73 ; Precip =   2.35; Height of grain =   0.00; Deer =  3
+2022 Year;  9 Month ; Temp =  51.82 ; Precip =   0.24; Height of grain =   0.00; Deer =  2
+2022 Year; 10 Month ; Temp =  55.14 ; Precip =   4.19; Height of grain =   0.00; Deer =  1
+2022 Year; 11 Month ; Temp =  33.71 ; Precip =   6.74; Height of grain =   0.00; Deer =  0
+2022 Year; 12 Month ; Temp =  35.78 ; Precip =  10.40; Height of grain =   0.00; Deer =  1
+2023 Year;  0 Month ; Temp =  49.65 ; Precip =   8.01; Height of grain =   0.00; Deer =  0
+2023 Year;  1 Month ; Temp =  55.43 ; Precip =  12.96; Height of grain =   0.00; Deer =  1
+2023 Year;  2 Month ; Temp =  62.02 ; Precip =  14.45; Height of grain =   0.00; Deer =  0
+2023 Year;  3 Month ; Temp =  72.44 ; Precip =  12.98; Height of grain =   0.00; Deer =  1
+2023 Year;  4 Month ; Temp =  83.61 ; Precip =   9.48; Height of grain =   0.00; Deer =  0
+2023 Year;  5 Month ; Temp =  70.89 ; Precip =  10.13; Height of grain =   0.00; Deer =  1
+2023 Year;  6 Month ; Temp =  79.50 ; Precip =   5.84; Height of grain =   0.00; Deer =  0
+2023 Year;  7 Month ; Temp =  66.86 ; Precip =   4.37; Height of grain =   0.00; Deer =  1
+2023 Year;  8 Month ; Temp =  66.57 ; Precip =   1.72; Height of grain =   0.00; Deer =  0
+2023 Year;  9 Month ; Temp =  57.20 ; Precip =   1.72; Height of grain =   0.00; Deer =  1
+2023 Year; 10 Month ; Temp =  55.52 ; Precip =   3.24; Height of grain =   0.00; Deer =  0
+2023 Year; 11 Month ; Temp =  36.04 ; Precip =   6.44; Height of grain =   0.00; Deer =  1
+2023 Year; 12 Month ; Temp =  45.64 ; Precip =  10.42; Height of grain =   0.00; Deer =  0
+2024 Year;  0 Month ; Temp =  48.68 ; Precip =   9.61; Height of grain =   0.00; Deer =  1
+2024 Year;  1 Month ; Temp =  47.08 ; Precip =  11.16; Height of grain =   0.00; Deer =  0
+2024 Year;  2 Month ; Temp =  58.40 ; Precip =  12.58; Height of grain =   0.00; Deer =  1
+2024 Year;  3 Month ; Temp =  74.11 ; Precip =  12.33; Height of grain =   0.00; Deer =  0
+2024 Year;  4 Month ; Temp =  68.66 ; Precip =  13.16; Height of grain =   0.00; Deer =  1
+2024 Year;  5 Month ; Temp =  78.93 ; Precip =   7.56; Height of grain =   0.00; Deer =  0
+2024 Year;  6 Month ; Temp =  70.82 ; Precip =   4.76; Height of grain =   0.00; Deer =  1
+2024 Year;  7 Month ; Temp =  76.06 ; Precip =   2.46; Height of grain =   0.00; Deer =  0
+2024 Year;  8 Month ; Temp =  74.60 ; Precip =   0.54; Height of grain =   0.00; Deer =  1
+2024 Year;  9 Month ; Temp =  54.84 ; Precip =   0.82; Height of grain =   0.00; Deer =  0
+2024 Year; 10 Month ; Temp =  46.11 ; Precip =   0.80; Height of grain =   0.00; Deer =  1
+2024 Year; 11 Month ; Temp =  44.21 ; Precip =   6.19; Height of grain =   0.00; Deer =  0
+2024 Year; 12 Month ; Temp =  43.48 ; Precip =   8.85; Height of grain =   0.00; Deer =  1
+2025 Year;  0 Month ; Temp =  40.05 ; Precip =   8.97; Height of grain =   0.00; Deer =  0
+2025 Year;  1 Month ; Temp =  45.07 ; Precip =  12.02; Height of grain =   0.00; Deer =  1
+2025 Year;  2 Month ; Temp =  50.50 ; Precip =  13.23; Height of grain =   0.00; Deer =  0
+2025 Year;  3 Month ; Temp =  73.78 ; Precip =  12.56; Height of grain =   0.00; Deer =  1
+2025 Year;  4 Month ; Temp =  81.56 ; Precip =  11.37; Height of grain =   0.00; Deer =  0
+2025 Year;  5 Month ; Temp =  86.55 ; Precip =   8.50; Height of grain =   0.00; Deer =  1
+2025 Year;  6 Month ; Temp =  73.20 ; Precip =   4.69; Height of grain =   0.00; Deer =  0
+2025 Year;  7 Month ; Temp =  80.03 ; Precip =   4.71; Height of grain =   0.00; Deer =  1
+2025 Year;  8 Month ; Temp =  63.34 ; Precip =   1.98; Height of grain =   0.00; Deer =  0
+2025 Year;  9 Month ; Temp =  48.73 ; Precip =   2.07; Height of grain =   0.00; Deer =  1
+2025 Year; 10 Month ; Temp =  44.29 ; Precip =   2.34; Height of grain =   0.00; Deer =  0
+2025 Year; 11 Month ; Temp =  40.82 ; Precip =   7.00; Height of grain =   0.00; Deer =  1
+2025 Year; 12 Month ; Temp =  41.72 ; Precip =   7.50; Height of grain =   0.00; Deer =  0
+2026 Year;  0 Month ; Temp =  41.51 ; Precip =   7.48; Height of grain =   0.00; Deer =  1
+2026 Year;  1 Month ; Temp =  51.52 ; Precip =  12.26; Height of grain =   0.00; Deer =  0
+2026 Year;  2 Month ; Temp =  59.20 ; Precip =  13.81; Height of grain =   0.00; Deer =  1
+2026 Year;  3 Month ; Temp =  57.30 ; Precip =  13.83; Height of grain =   0.00; Deer =  0
+2026 Year;  4 Month ; Temp =  77.00 ; Precip =  12.19; Height of grain =   0.00; Deer =  1
+2026 Year;  5 Month ; Temp =  78.56 ; Precip =   8.12; Height of grain =   0.00; Deer =  0
+2026 Year;  6 Month ; Temp =  79.86 ; Precip =   5.23; Height of grain =   0.00; Deer =  1
+2026 Year;  7 Month ; Temp =  79.59 ; Precip =   1.24; Height of grain =   0.00; Deer =  0
+2026 Year;  8 Month ; Temp =  74.45 ; Precip =   0.00; Height of grain =   0.00; Deer =  1
+2026 Year;  9 Month ; Temp =  56.20 ; Precip =   0.12; Height of grain =   0.00; Deer =  0
+2026 Year; 10 Month ; Temp =  46.53 ; Precip =   2.28; Height of grain =   0.00; Deer =  1
+2026 Year; 11 Month ; Temp =  44.89 ; Precip =   4.47; Height of grain =   0.00; Deer =  0
+2026 Year; 12 Month ; Temp =  45.88 ; Precip =   8.82; Height of grain =   0.00; Deer =  1
+2027 Year;  0 Month ; Temp =  44.74 ; Precip =  10.23; Height of grain =   0.00; Deer =  0
+2027 Year;  1 Month ; Temp =  54.04 ; Precip =  12.66; Height of grain =   0.00; Deer =  1
+2027 Year;  2 Month ; Temp =  46.88 ; Precip =  14.77; Height of grain =   0.00; Deer =  0
+2027 Year;  3 Month ; Temp =  57.83 ; Precip =  12.02; Height of grain =   0.00; Deer =  1
+2027 Year;  4 Month ; Temp =  74.54 ; Precip =  11.90; Height of grain =   0.00; Deer =  0
+2027 Year;  5 Month ; Temp =  78.41 ; Precip =   7.93; Height of grain =   0.00; Deer =  1
+2027 Year;  6 Month ; Temp =  83.61 ; Precip =   6.88; Height of grain =   0.00; Deer =  0
+2027 Year;  7 Month ; Temp =  66.11 ; Precip =   2.70; Height of grain =   0.00; Deer =  1
+2027 Year;  8 Month ; Temp =  60.91 ; Precip =   0.00; Height of grain =   0.00; Deer =  0
+2027 Year;  9 Month ; Temp =  58.11 ; Precip =   2.50; Height of grain =   0.00; Deer =  1
+2027 Year; 10 Month ; Temp =  45.01 ; Precip =   4.32; Height of grain =   0.00; Deer =  0
+2027 Year; 11 Month ; Temp =  43.60 ; Precip =   6.23; Height of grain =   0.00; Deer =  1
+2027 Year; 12 Month ; Temp =  39.67 ; Precip =   9.42; Height of grain =   0.00; Deer =  0

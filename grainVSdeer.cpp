@@ -176,7 +176,7 @@ Deer(){
 
 			// DoneComputing barrier:
 			WaitBarrier( );
-			int NowNumDeer = nextNumDeer;
+			NowNumDeer = nextNumDeer;
 			//printf ("%s; %2d \n", "updated deer", NowNumDeer);
 
 			// DoneAssigning barrier:
@@ -219,7 +219,8 @@ Grain(){
 
 			// DoneComputing barrier:
 			WaitBarrier( );
-			float NowHeight = nextHeight;
+			
+			NowHeight = nextHeight;
 
 			// DoneAssigning barrier:
 			WaitBarrier( );
@@ -231,42 +232,42 @@ Grain(){
 	}
 }
 
-void
-SwarmofBeesPollinate(){
-	while(NowYear < 2028){
-			// compute a temporary next-value for this quantity
-			// based on the current state of the simulation:
-			float nextSwarmofBees = NowSwarmofBees;
-			if (tempFactor > 60){
-				if precipFactor < 1{
-					nextSwarmofBees = 1
-				}
-			}
-			else{
-				nextSwarmofBees = 0
-			}
-			nextHeight -= (float)NowNumDeer * ONE_DEER_EATS_PER_MONTH;
+// void
+// SwarmofBeesPollinate(){
+// 	while(NowYear < 2028){
+// 			// compute a temporary next-value for this quantity
+// 			// based on the current state of the simulation:
+// 			float nextSwarmofBees = NowSwarmofBees;
+// 			if (tempFactor > 60){
+// 				if precipFactor < 1{
+// 					nextSwarmofBees = 1
+// 				}
+// 			}
+// 			else{
+// 				nextSwarmofBees = 0
+// 			}
+// 			nextHeight -= (float)NowNumDeer * ONE_DEER_EATS_PER_MONTH;
 			
-			// Be sure to clamp nextHeight against zero, that is:
-			if( nextHeight < 0. ){ 
-				nextHeight = 0;
-			}
+// 			// Be sure to clamp nextHeight against zero, that is:
+// 			if( nextHeight < 0. ){ 
+// 				nextHeight = 0;
+// 			}
 
-			//fprintf(stderr, "new grain height = %6.2f; \n", nextHeight);
+// 			//fprintf(stderr, "new grain height = %6.2f; \n", nextHeight);
 
-			// DoneComputing barrier:
-			WaitBarrier( );
-			float NowHeight = nextHeight;
+// 			// DoneComputing barrier:
+// 			WaitBarrier( );
+// 			float NowHeight = nextHeight;
 
-			// DoneAssigning barrier:
-			WaitBarrier( );
+// 			// DoneAssigning barrier:
+// 			WaitBarrier( );
 			
 
-			// DonePrinting barrier:
-			WaitBarrier( );
+// 			// DonePrinting barrier:
+// 			WaitBarrier( );
 			
-	}
-}
+// 	}
+// }
 
 int
 main(int argc, char*argv[])
@@ -295,10 +296,10 @@ main(int argc, char*argv[])
 			Watcher( );
 		}
 
-		#pragma omp section
-		{
-			SwarmofBeesPollinate( );	
-		}
+		// #pragma omp section
+		// {
+		// 	SwarmofBeesPollinate( );	
+		// }
 	}       // implied barrier -- all functions must return in order
 		// to allow any of them to get past here
 
