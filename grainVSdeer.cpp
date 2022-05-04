@@ -29,13 +29,13 @@ volatile int	NumGone;
 int	NowYear = 2022;		// 2022 - 2027
 int	NowMonth = 0;		// 0 - 11
 
-float	NowPrecip = 7;		// inches of rain per month
-float	NowTemp = 40;		// temperature this month
-float	NowHeight = 2;		// grain height in inches
+float	NowPrecip = 4;		// inches of rain per month
+float	NowTemp = 35;		// temperature this month
+float	NowHeight = 1;		// grain height in inches
 int	NowNumDeer = 1;		// number of deer in the current population
 
 // Parameters
-const float GRAIN_GROWS_PER_MONTH =		2.0;
+const float GRAIN_GROWS_PER_MONTH =		9.0;
 const float ONE_DEER_EATS_PER_MONTH =		1.0;
 
 const float AVG_PRECIP_PER_MONTH =		7.0;	// average
@@ -217,6 +217,7 @@ Grain(){
 			// compute a temporary next-value for this quantity
 			// based on the current state of the simulation:
 			float nextHeight = NowHeight;
+			fprintf(stderr, "old grain = %6.2f; \n", nextHeight);
 			nextHeight += tempFactor * precipFactor * GRAIN_GROWS_PER_MONTH;
 			nextHeight -= (float)NowNumDeer * ONE_DEER_EATS_PER_MONTH;
 			
@@ -225,7 +226,7 @@ Grain(){
 				nextHeight = 0;
 			}
 
-			fprintf(stderr, "new grain height = %6.2f; \n", nextHeight);
+			fprintf(stderr, "new grain  = %6.2f; \n", nextHeight);
 
 			// 1
 			WaitBarrier( );
@@ -257,25 +258,27 @@ cropRotation(){
 
 			// 2
 			WaitBarrier( );
-			
-
-			// 3
-			WaitBarrier( );
 
 			// compute a temporary next-value for this quantity
 			// based on the current state of the simulation:
 			float nextHeight = NowHeight;
+			fprintf(stderr, "old grain height crop rotation = %6.2f; \n", nextHeight);
 			if (NowYear % 2 == 0){
-				if (NowMonth == 8){
-					nextHeight = NowHeight * 2;
+				if (NowMonth == 6 ){
+					nextHeight = NowHeight * 3;
 				}
+				
 			}
 
-			fprintf(stderr, "new grain height crop rotation = %6.2f; \n", nextHeight);
+			// 3
+			WaitBarrier( );
+
+			NowHeight = nextHeight;
+
 
 			// 4
 			WaitBarrier( );
-			NowHeight = nextHeight;
+			
 			
 
 			// 5
